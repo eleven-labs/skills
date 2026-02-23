@@ -74,7 +74,7 @@ function hasValidFrontmatterBoundaries(content) {
 }
 
 function getSkillsFromArgs() {
-  const args = process.argv.slice(2).filter((arg) => arg !== '--');
+  const args = process.argv.slice(2);
   if (args.length === 0) return null;
   return [...new Set(args.map((file) => basename(dirname(file))))];
 }
