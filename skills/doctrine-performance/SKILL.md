@@ -1,6 +1,6 @@
 ---
 name: doctrine-performance
-description: Doctrine ORM performance guidance, covering query optimization, memory management and database interaction patterns
+description: Optimize Doctrine ORM performance when queries are slow or memory usage spikes so that applications reduce latency and resource consumption.
 ---
 
 ## What I do
