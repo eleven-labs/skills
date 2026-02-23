@@ -1,0 +1,24 @@
+{
+  "name": "@eleven-labs/skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "validate": "node scripts/validate-skills.mjs",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown",
+    "skills/*/SKILL.md": "node scripts/validate-skills.mjs --"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.1",
+    "@commitlint/config-conventional": "^20.4.1",
+    "consola": "^3.4.2",
+    "gray-matter": "^4.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.5.3"
+  }
+}
