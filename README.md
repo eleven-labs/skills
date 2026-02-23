@@ -11,7 +11,6 @@ Collection de skills pour agents IA, publiés sur [skills.sh](https://skills.sh)
 - [Évaluations](#évaluations)
 - [CLI skills.sh](#cli-skillssh)
 - [Publication sur skill.sh](#publication-sur-skillsh)
-- [Checklist avant publication](#checklist-avant-publication)
 - [Ressources](#ressources)
 
 ## Qu'est-ce qu'un Skill ?
@@ -317,17 +316,6 @@ Chaque skill doit inclure un fichier `CHANGELOG.md` pour tracer l'historique des
 ### CI
 
 La CI valide automatiquement les skills sur chaque PR touchant `skills/` (`validate.yml`) en exécutant `scripts/validate-skills.mjs` pour vérifier la structure, le frontmatter et les conventions de nommage.
-
-## Checklist avant publication
-
-- [ ] `SKILL.md` complet avec frontmatter valide (`name` + `description`)
-- [ ] Nom descriptif unique au format `[domaine]-[action]-[format]`
-- [ ] (Optionnel) `EVALS.md` avec 5+ évaluations couvrant cas nominaux et cas d'erreur
-- [ ] Testé avec taux de réussite ≥ 85%
-- [ ] `SKILL.md` < 500 lignes
-- [ ] Gestion des cas limites documentée
-- [ ] `CHANGELOG.md` à jour
-- [ ] Aucun secret en dur
 
 ## Ressources
 
