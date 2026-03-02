@@ -10,7 +10,7 @@
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown",
-    "skills/*/SKILL.md": "node scripts/validate-skills.mjs --"
+    "skills/*/SKILL.md": "node scripts/validate-skills.mjs"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.4.1",
