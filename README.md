@@ -11,6 +11,7 @@ Collection de skills pour agents IA, publiés sur [skills.sh](https://skills.sh)
 - [Évaluations](#évaluations)
 - [CLI skills.sh](#cli-skillssh)
 - [Publication sur skill.sh](#publication-sur-skillsh)
+- [Écosystème & Retours d'expérience](#écosystème--retours-dexpérience)
 - [Ressources](#ressources)
 
 ## Qu'est-ce qu'un Skill ?
@@ -316,6 +317,17 @@ Chaque skill doit inclure un fichier `CHANGELOG.md` pour tracer l'historique des
 ### CI
 
 La CI valide automatiquement les skills sur chaque PR touchant `skills/` (`validate.yml`) en exécutant `scripts/validate-skills.mjs` pour vérifier la structure, le frontmatter et les conventions de nommage.
+
+## Écosystème & Retours d'expérience
+
+Au-delà de nos propres skills, nous documentons les outils communautaires que nous utilisons pour guider les choix de l'équipe.
+
+| Documentation                                     | Description                                                         |
+| :------------------------------------------------ | :------------------------------------------------------------------ |
+| [Skills communautaires](docs/community-skills.md) | Skills tiers installés via skills.sh — avis et retours d'expérience |
+| [Serveurs MCP](docs/mcp-servers.md)               | Serveurs Model Context Protocol — configuration et efficacité       |
+| [Agents de review](docs/review-agents.md)         | Agents de code review IA — qualité et rapport signal/bruit          |
+| [Templates d'AGENTS.md](docs/agent-templates/)    | Templates prêts à l'emploi par stack/catégorie                      |
 
 ## Ressources
 
